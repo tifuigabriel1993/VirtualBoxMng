@@ -1,0 +1,17 @@
+centos:
+    resources:
+      cpu: 2
+      ram: 6000
+    system:
+      update_os: true
+      apps:
+        - git
+        - ssh
+
+default:
+    resources:
+      cpu: 1
+      ram: 1024
+    system:
+      update_os: false
+      apps: []

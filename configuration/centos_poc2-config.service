@@ -1,0 +1,9 @@
+[Unit]
+Description=Virtual Machine Configuration Service
+After=network.target
+
+[Service]
+ExecStart=/service/vmconfig.sh 
+
+[Install]
+WantedBy=multi-user.target

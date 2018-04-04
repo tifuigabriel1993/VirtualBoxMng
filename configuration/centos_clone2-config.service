@@ -1,0 +1,9 @@
+[Unit]
+Description=Virtual Machine Configuration Service
+After=network.target
+
+[Service]
+ExecStart=__script__here__
+
+[Install]
+WantedBy=multi-user.target
